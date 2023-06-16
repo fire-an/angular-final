@@ -1,0 +1,8 @@
+<section>
+  <form action="" [formGroup]="productForm" (ngSubmit)="onHandleSubmit()">
+    <input type="text" formControlName="name" />
+    <input type="number" formControlName="price" />
+    <input type="text" formControlName="desc" />
+    <button type="submit">Thêm</button>
+  </form>
+</section>

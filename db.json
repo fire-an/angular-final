@@ -1,12 +1,6 @@
 {
   "products": [
     {
-      "id": "ypsL7ne",
-      "name": "Product A",
-      "price": 200,
-      "desc": "mo ta san pham A"
-    },
-    {
       "id": "JnaYvG6",
       "name": "Product B",
       "price": 300,
@@ -17,6 +11,24 @@
       "name": "Product C",
       "price": 400,
       "desc": "mo ta san pham C"
+    },
+    {
+      "id": "bN9h5V4",
+      "name": "aaaa",
+      "price": 10000,
+      "desc": "sdfgf"
+    },
+    {
+      "id": "eonOflj",
+      "name": "aaab u",
+      "price": 10,
+      "desc": "zzz"
+    },
+    {
+      "id": "gfpb-t8",
+      "name": "www update",
+      "price": 123456,
+      "desc": "zzz"
     }
   ]
 }

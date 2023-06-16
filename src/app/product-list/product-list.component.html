@@ -1,0 +1,10 @@
+<section>
+  <div *ngFor="let product of products">
+    <p>{{ product.name }}</p>
+    <p>{{ product.price }}</p>
+    <p>{{ product.desc }}</p>
+    <a routerLink="/product/{{ product.id }}/update">Chi tiết</a>
+    <button (click)="deleteProduct(product.id)">Xóa</button>
+    <a routerLink="{{ product.id }}/update">Sửa</a>
+  </div>
+</section>
